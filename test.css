@@ -1,0 +1,65 @@
+p {
+color: #cdff18;
+font-family: Impact;
+font-size: 32px;
+}
+@media screen and (min-width: 4024px) {
+body {
+background-color: black;
+}
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    font-family: arial black;
+
+
+}
+
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    right: 128px;
+    font-size: 20px;
+    color: black;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 20px;
+    color: black;
+}
+
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    color: #cdff18;
+    text-shadow: 2px 2px #000000;
+
+}
+}
+a {
+font-family: Impact;
+font-size: 24px;
+text-decoration: none;
+}
+a:hover {
+color: green;
+text-decoration: none;
+
+}
+#map {
+
+
+}

@@ -1,0 +1,2 @@
+
+object.onclick = function(){myScript};
